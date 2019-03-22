@@ -1,0 +1,8 @@
+<section class="phx-hero">
+  <h1><%= gettext "Welcome to Tasks Tracker" %></h1>
+  <%= link "Register", to: Routes.user_path(@conn, :new) %>
+</section>
+
+<section class="row">
+  <p> Help you track your tasks </p>
+</section>
